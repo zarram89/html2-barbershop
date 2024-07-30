@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Барбершоп «Бородинский»</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page__body" style="background-color: #000;">
+  <header class="main-header">
+    <a class="main-header__logo" href="#">
+      <img class="main-header__logo-image" src="./images/logotype-phone.svg" width="226" height="30" alt="Барбершоп «Бородинский»">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Наши работы</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Записаться</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+        <div class="main-nav__list user-list">
+          <a class="user-list__login" href="login.html">
+            <svg class="user-list__login-icon" width="16" height="16">
+              <use href="./images/sprite.svg#icon-login"></use>
+            </svg>
+            Войти
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
+
+    <section class="stats">
+      <div class="stats__wrapper">
+        <header class="stats__header">
+          <h2 class="visually-hidden">Статистика Барбершопа</h2>
+          <p class="stats__slogan">
+            Стрижка у нас<br>
+            это выгодно!</p>
+          <p class="status__intro">
+            Мужская стрижка требует<br>
+            точного подхода. Обратимся<br>
+            к статистике:
+          </p>
+          <p class="stats__legend stats__legend--top">
+            <small>
+              * - приведенные данные ложь
+            </small>
+          </p>
+        </header>
+        <dl class="stats__list">
+          <div class="stats__item">
+            <dt class="stats__number">
+              1 500<sup>*</sup>
+            </dt>
+            <dd class="stats__description">
+              рублей<br>
+              вложений
+            </dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">
+              7 200
+            </dt>
+            <dd class="stats__description">
+              секунд<br>
+              времени мастера
+            </dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">
+              90 000
+            </dt>
+            <dd class="stats__description">
+              постриженных<br>
+              волос
+            </dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">
+              500 000<sup>*</sup>
+            </dt>
+            <dd class="stats__description">
+              рублей<br>
+              вложений
+            </dd>
+          </div>
+        </dl>
+        <small class="stats__legend stats__legend--bottom">
+          * - приведенные данные ложь
+        </small>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="advantages__wrapper">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h3 class="advantages__title"></h3>
+            <p class="advantages__description"></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
